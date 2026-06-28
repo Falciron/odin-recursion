@@ -26,3 +26,7 @@ module FibonacciSequenceGenerator
     end
   end
 end
+
+# FibExtender = Class.new.extend(FibonacciSequenceGenerator)
+# p FibExtender.fibs(8)
+# p FibExtender.fibs_rec(8)
