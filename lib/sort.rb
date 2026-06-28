@@ -32,3 +32,6 @@ module Sort
       (!first_array[first_index].nil? && first_array[first_index] < second_array[second_index])
   end
 end
+
+# SortExtender = Class.new.extend(Sort)
+# p SortExtender.merge_sort([4, 2, 1, 3])
